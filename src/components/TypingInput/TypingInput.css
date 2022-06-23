@@ -1,0 +1,17 @@
+.TypingInput {
+  padding: 0 25px;
+  width: 760px;
+  height: 52px;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #ffffff50;
+  background: #ffffff40;
+  color: #fffcf2;
+  font-size: 30px;
+  transition: linear .2s;
+}
+
+.TypingInput:focus {
+  background: #ffffff50;
+  transition: linear .2s;
+}

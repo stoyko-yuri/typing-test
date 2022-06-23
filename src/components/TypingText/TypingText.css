@@ -1,0 +1,20 @@
+.TypingText {
+  width: 100%;
+  height: 200px;
+  font-size: 30px;
+  color: #fffcf295;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  overflow: hidden;
+}
+
+.TypingText p {
+  height: 40px;
+}
+
+.TypingText p:first-child {
+  padding: 0 20px;
+  color: #fffcf2;
+  background: #fe5f55;
+}
